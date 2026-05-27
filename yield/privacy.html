@@ -23,6 +23,7 @@
             <li><a href="/vigil/">Vigil</a></li>
             <li><a href="/cadence/">Cadence</a></li>
             <li><a href="/yield/">Yield</a></li>
+            <li><a href="/artisan/">Artisan</a></li>
             <li><a href="/randomizer-hub/">RandomizerTools</a></li>
             <li><a href="/soulframe-tools/">SoulframeTools</a></li>
           </ul>
@@ -37,6 +38,7 @@
       <a href="/vigil/">Vigil</a>
       <a href="/cadence/">Cadence</a>
       <a href="/yield/">Yield</a>
+      <a href="/artisan/">Artisan</a>
       <a href="/randomizer-hub/">RandomizerTools</a>
       <a href="/soulframe-tools/">SoulframeTools</a>
     </nav>
@@ -50,7 +52,7 @@
         <h1 style="font-size:clamp(1.6rem,4vw,2.5rem);margin-bottom:1.5rem;">Privacy Policy</h1>
 
         <div class="privacy-meta">
-          <span><strong>Effective date:</strong> May 21, 2026</span>
+          <span><strong>Effective date:</strong> May 26, 2026</span>
           <span><strong>App:</strong> Yield (Android)</span>
           <span><strong>Developer:</strong> EnigmaMachineDev</span>
         </div>
@@ -59,11 +61,14 @@
         <p>Yield is an offline-first Android application. It does not connect to the internet, does not collect personal information, and does not transmit any data to external servers or third parties. All data you create in Yield stays on your device.</p>
 
         <h2>Information We Collect</h2>
-        <p>Yield does not collect any personal information. The app stores the following data locally on your device using MMKV, a fast key-value store private to the app:</p>
+        <p>Yield does not collect any personal information. The app stores the following data locally on your device, in a private application folder:</p>
         <ul>
-          <li>Item records (name, description, sourcing details, status)</li>
-          <li>Condition evaluation records (condition grade, purchase price, list price, notes)</li>
-          <li>Prospect entries you add to your watchlist</li>
+          <li>Item records (name, source, status, listing and sale details, notes)</li>
+          <li>Item types and pricing settings you define</li>
+          <li>Cost entries you add to items (category, amount, notes)</li>
+          <li>Selling-platform entries and their fee settings</li>
+          <li>Price-change history and listing details</li>
+          <li>Photos you attach to your items</li>
           <li>App settings and preferences</li>
         </ul>
         <p>None of this data is linked to your identity, uploaded anywhere, or shared with any third party.</p>
@@ -71,24 +76,29 @@
         <h2>How We Use Your Data</h2>
         <p>Data stored by Yield is used solely to operate the app's features on your device:</p>
         <ul>
-          <li>Displaying and organizing your inventory and evaluation history</li>
-          <li>Calculating pricing estimates and return margins</li>
-          <li>Showing portfolio insights on the dashboard</li>
+          <li>Displaying and organizing your inventory across its prospect, inventory, and sold stages</li>
+          <li>Calculating pricing estimates, platform fees, and return margins</li>
+          <li>Showing insights such as profit, ROI, sell-through, and average time to sell</li>
           <li>Restoring app state between sessions</li>
         </ul>
 
+        <h2>Photos &amp; Camera</h2>
+        <p>Yield lets you attach photos to your items. When you choose to add a photo, the app asks for permission to use your camera or to select images from your photo library. Selected images are resized and saved into Yield's private application folder on your device. Photos are never uploaded or shared by the app — they are only included if you choose to export your data (see below). Yield only accesses your camera or photo library at the moment you add a photo.</p>
+
         <h2>Export &amp; Import</h2>
-        <p>Yield includes an optional export feature that shares your ledger data as a JSON file via Android's standard share sheet (expo-sharing). Import is handled through Android's system file picker (expo-document-picker / Storage Access Framework). Neither process routes data through any server — all file operations are local and on-device. You choose what you do with exported files.</p>
+        <p>Yield includes an optional export feature. You can export your full ledger (your <code>data.json</code> plus your item photos) as a ZIP file, or export your item list as a CSV file, through Android's standard share sheet (expo-sharing). Import is handled through Android's system file picker (expo-document-picker / Storage Access Framework). Neither process routes data through any server — all file operations are local and on-device. You choose what you do with exported files.</p>
 
         <h2>Permissions Required</h2>
-        <p>Yield requires minimal Android permissions:</p>
+        <p>Yield requests only the permissions needed for features you actively use:</p>
         <ul>
+          <li><strong>Camera</strong> — used only when you choose to take a photo of an item</li>
+          <li><strong>Photos / Media</strong> — used only when you choose to attach an existing image to an item</li>
           <li><strong>Storage Access Framework</strong> — used for the optional import and export features. This does not require a broad storage permission; Android manages file access through the system file picker and share sheet</li>
         </ul>
-        <p>Yield does not request access to your contacts, location, camera, microphone, notifications, or any other sensitive system resource.</p>
+        <p>Yield does not request access to your contacts, location, microphone, or any other sensitive system resource.</p>
 
         <h2>Data Storage &amp; Security</h2>
-        <p>All app data is stored in MMKV, a sandboxed local storage layer private to Yield and not accessible to other apps. This data is removed when you uninstall Yield. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours.</p>
+        <p>All app data is stored in a private application folder that belongs to Yield and is not accessible to other apps. This data is removed when you uninstall Yield. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours.</p>
 
         <h2>Data Sharing</h2>
         <p>Yield does not share any data with third parties. There are no analytics SDKs, crash reporting services, advertising networks, or external APIs integrated into the app.</p>

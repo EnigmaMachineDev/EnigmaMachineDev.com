@@ -1,0 +1,71 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EnigmaMachineDev" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e8]:
+          - button "Apps ▾" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: 🔨
+      - generic [ref=e14]: Android · Maker's Assistant
+      - heading "Artisan" [level=1] [ref=e15]
+      - paragraph [ref=e16]: Know what your work is really worth. A workshop ledger for makers — track each piece as you build it, tally materials and labor, set a price that respects your time, and follow it through to the sale.
+      - generic [ref=e17]:
+        - generic: Coming to Google Play
+        - link "Privacy Policy" [ref=e18] [cursor=pointer]:
+          - /url: /artisan/privacy.html
+    - generic [ref=e20]:
+      - generic [ref=e21]: Features
+      - heading "What Artisan does" [level=2] [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: 🪵
+          - heading "Project Tracking" [level=3] [ref=e26]
+          - paragraph [ref=e27]: Follow every piece through its full lifecycle — in progress, finished inventory, and sold. Your whole workshop, organized in one ledger.
+        - generic [ref=e28]:
+          - generic [ref=e29]: 🧾
+          - heading "Material Costs" [level=3] [ref=e30]
+          - paragraph [ref=e31]: Log every material and expense that goes into a build, with categories and notes. Costs accumulate as the project grows so you always know what you've put in.
+        - generic [ref=e32]:
+          - generic [ref=e33]: ⏱️
+          - heading "Time & Labor Tracking" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Record the hours you spend on each piece at your chosen hourly rate. Artisan folds labor into the true cost so your pricing reflects your time, not just supplies.
+        - generic [ref=e36]:
+          - generic [ref=e37]: 🏷️
+          - heading "Smart Pricing" [level=3] [ref=e38]
+          - paragraph [ref=e39]: Price by project type using the strategy that fits — a cost multiplier, cost plus a flat margin, or a fixed target price — with selling-platform fees factored in.
+        - generic [ref=e40]:
+          - generic [ref=e41]: 📷
+          - heading "Project Photos" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Attach photos of each piece straight from your camera or gallery. Images are compressed and stored privately on your device.
+        - generic [ref=e44]:
+          - generic [ref=e45]: 📊
+          - heading "Sales & Insights" [level=3] [ref=e46]
+          - paragraph [ref=e47]: See profit, ROI, sell-through, and average time to sell across your work. Export your full ledger as a ZIP or CSV to keep your records wherever you want.
+    - generic [ref=e49]:
+      - generic [ref=e50]: Screenshots
+      - heading "App preview" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - generic [ref=e53]: 📱 Screenshots coming soon
+        - generic [ref=e54]: 📱 Screenshots coming soon
+        - generic [ref=e55]: 📱 Screenshots coming soon
+        - generic [ref=e56]: 📱 Screenshots coming soon
+    - generic [ref=e58]:
+      - generic [ref=e59]: Patch Notes
+      - heading "Release history" [level=2] [ref=e60]
+      - generic [ref=e61]:
+        - text: Patch notes will appear here once Artisan is publicly available.
+        - text: Check back after the Google Play launch.
+  - contentinfo [ref=e62]:
+    - paragraph [ref=e64]:
+      - text: © 2026 EnigmaMachineDev ·
+      - link "GitHub" [ref=e65] [cursor=pointer]:
+        - /url: https://github.com/EnigmaMachineDev
+      - text: ·
+      - link "Privacy Policy" [ref=e66] [cursor=pointer]:
+        - /url: /artisan/privacy.html

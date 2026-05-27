@@ -1,0 +1,93 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EnigmaMachineDev" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e8]:
+          - button "Apps ▾" [expanded] [active] [ref=e9] [cursor=pointer]
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - link "Vigil" [ref=e72] [cursor=pointer]:
+                - /url: /vigil/
+            - listitem [ref=e73]:
+              - link "Cadence" [ref=e74] [cursor=pointer]:
+                - /url: /cadence/
+            - listitem [ref=e75]:
+              - link "Yield" [ref=e76] [cursor=pointer]:
+                - /url: /yield/
+            - listitem [ref=e77]:
+              - link "Artisan" [ref=e78] [cursor=pointer]:
+                - /url: /artisan/
+            - listitem [ref=e79]:
+              - link "RandomizerTools" [ref=e80] [cursor=pointer]:
+                - /url: /randomizer-hub/
+            - listitem [ref=e81]:
+              - link "SoulframeTools" [ref=e82] [cursor=pointer]:
+                - /url: /soulframe-tools/
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Independent Developer
+      - heading "EnigmaMachineDev" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Building practical tools for daily life — Android apps and web utilities designed to solve real problems without unnecessary complexity.
+    - generic [ref=e17]:
+      - generic [ref=e18]: Mobile Apps
+      - heading "Android Applications" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - link "Vigil icon Alarm & Timer · Android Vigil Advanced alarm management built for heavy sleepers. Presets, automation rules, and a dismiss system that actually gets you out of bed. View app →" [ref=e21] [cursor=pointer]:
+          - /url: /vigil/
+          - img "Vigil icon" [ref=e23]
+          - generic [ref=e24]: Alarm & Timer · Android
+          - heading "Vigil" [level=3] [ref=e25]
+          - paragraph [ref=e26]: Advanced alarm management built for heavy sleepers. Presets, automation rules, and a dismiss system that actually gets you out of bed.
+          - generic [ref=e27]: View app →
+        - link "Cadence icon Task Management · Android Cadence Task management with rhythm. Organize work by type, track progress with custom statuses, and generate a focused daily block. View app →" [ref=e28] [cursor=pointer]:
+          - /url: /cadence/
+          - img "Cadence icon" [ref=e30]
+          - generic [ref=e31]: Task Management · Android
+          - heading "Cadence" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Task management with rhythm. Organize work by type, track progress with custom statuses, and generate a focused daily block.
+          - generic [ref=e34]: View app →
+        - link "Yield icon Resale Assistant · Android Yield The smart companion for resellers. Track items from prospect to sold, log costs and platform fees, calculate pricing, and watch your returns. View app →" [ref=e35] [cursor=pointer]:
+          - /url: /yield/
+          - img "Yield icon" [ref=e37]
+          - generic [ref=e38]: Resale Assistant · Android
+          - heading "Yield" [level=3] [ref=e39]
+          - paragraph [ref=e40]: The smart companion for resellers. Track items from prospect to sold, log costs and platform fees, calculate pricing, and watch your returns.
+          - generic [ref=e41]: View app →
+        - link "🔨 Maker's Assistant · Android Artisan A workshop ledger for makers. Track each piece you build, tally materials and labor, price it to respect your time, and follow it to the sale. View app →" [ref=e42] [cursor=pointer]:
+          - /url: /artisan/
+          - generic [ref=e43]: 🔨
+          - generic [ref=e44]: Maker's Assistant · Android
+          - heading "Artisan" [level=3] [ref=e45]
+          - paragraph [ref=e46]: A workshop ledger for makers. Track each piece you build, tally materials and labor, price it to respect your time, and follow it to the sale.
+          - generic [ref=e47]: View app →
+    - generic [ref=e49]:
+      - generic [ref=e50]: Web Apps
+      - heading "Web Tools" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - link "🎲 Web App RandomizerTools A growing collection of randomizers for games, food, and activities. No account, no friction — just spin and go. View app →" [ref=e53] [cursor=pointer]:
+          - /url: /randomizer-hub/
+          - generic [ref=e54]: 🎲
+          - generic [ref=e55]: Web App
+          - heading "RandomizerTools" [level=3] [ref=e56]
+          - paragraph [ref=e57]: A growing collection of randomizers for games, food, and activities. No account, no friction — just spin and go.
+          - generic [ref=e58]: View app →
+        - link "⚔️ Web App SoulframeTools A companion web app for Soulframe players. Browse equipment, track your progression, and calculate build stats. View app →" [ref=e59] [cursor=pointer]:
+          - /url: /soulframe-tools/
+          - generic [ref=e60]: ⚔️
+          - generic [ref=e61]: Web App
+          - heading "SoulframeTools" [level=3] [ref=e62]
+          - paragraph [ref=e63]: A companion web app for Soulframe players. Browse equipment, track your progression, and calculate build stats.
+          - generic [ref=e64]: View app →
+  - contentinfo [ref=e65]:
+    - paragraph [ref=e67]:
+      - text: © 2026 EnigmaMachineDev ·
+      - link "GitHub" [ref=e68] [cursor=pointer]:
+        - /url: https://github.com/EnigmaMachineDev
+      - text: ·
+      - link "☕ Buy me a coffee" [ref=e69] [cursor=pointer]:
+        - /url: https://buymeacoffee.com/EnigmaMachineDev

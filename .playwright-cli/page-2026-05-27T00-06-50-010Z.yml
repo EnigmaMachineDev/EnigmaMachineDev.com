@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EnigmaMachineDev" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e8]:
+          - button "Apps ▾" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Artisan
+      - heading "Privacy Policy" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - strong [ref=e17]: "Effective date:"
+          - text: May 26, 2026
+        - generic [ref=e18]:
+          - strong [ref=e19]: "App:"
+          - text: Artisan (Android)
+        - generic [ref=e20]:
+          - strong [ref=e21]: "Developer:"
+          - text: EnigmaMachineDev
+      - heading "Overview" [level=2] [ref=e22]
+      - paragraph [ref=e23]: Artisan is an offline-first Android application. It does not connect to the internet, does not collect personal information, and does not transmit any data to external servers or third parties. All data you create in Artisan stays on your device.
+      - heading "Information We Collect" [level=2] [ref=e24]
+      - paragraph [ref=e25]: "Artisan does not collect any personal information. The app stores the following data locally on your device, in a private application folder:"
+      - list [ref=e26]:
+        - listitem [ref=e27]: ▸ Project records (name, status, completion and sale details, notes)
+        - listitem [ref=e28]: ▸ Project types and pricing settings you define
+        - listitem [ref=e29]: ▸ Material and expense entries (category, amount, notes)
+        - listitem [ref=e30]: ▸ Time entries (hours worked and the hourly rate applied)
+        - listitem [ref=e31]: ▸ Selling-platform entries and their fee settings
+        - listitem [ref=e32]: ▸ Price-change history and listing details
+        - listitem [ref=e33]: ▸ Photos you attach to your projects
+        - listitem [ref=e34]: ▸ App settings and preferences
+      - paragraph [ref=e35]: None of this data is linked to your identity, uploaded anywhere, or shared with any third party.
+      - heading "How We Use Your Data" [level=2] [ref=e36]
+      - paragraph [ref=e37]: "Data stored by Artisan is used solely to operate the app's features on your device:"
+      - list [ref=e38]:
+        - listitem [ref=e39]: ▸ Displaying and organizing your projects, materials, and time entries
+        - listitem [ref=e40]: ▸ Calculating accumulated cost, suggested pricing, and profit margins
+        - listitem [ref=e41]: ▸ Showing sales insights such as profit, ROI, sell-through, and average time to sell
+        - listitem [ref=e42]: ▸ Restoring app state between sessions
+      - heading "Photos & Camera" [level=2] [ref=e43]
+      - paragraph [ref=e44]: Artisan lets you attach photos to your projects. When you choose to add a photo, the app asks for permission to use your camera or to select images from your photo library. Selected images are resized and saved into Artisan's private application folder on your device. Photos are never uploaded or shared by the app — they are only included if you choose to export your data (see below). Artisan only accesses your camera or photo library at the moment you add a photo.
+      - heading "Export & Import" [level=2] [ref=e45]
+      - paragraph [ref=e46]:
+        - text: Artisan includes an optional export feature. You can export your full ledger (your
+        - code [ref=e47]: data.json
+        - text: plus your project photos) as a ZIP file, or export your project list as a CSV file, through Android's standard share sheet (expo-sharing). Import is handled through Android's system file picker (expo-document-picker / Storage Access Framework). Neither process routes data through any server — all file operations are local and on-device. You choose what you do with exported files.
+      - heading "Permissions Required" [level=2] [ref=e48]
+      - paragraph [ref=e49]: "Artisan requests only the permissions needed for features you actively use:"
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - text: ▸
+          - strong [ref=e52]: Camera
+          - text: — used only when you choose to take a photo of a project
+        - listitem [ref=e53]:
+          - text: ▸
+          - strong [ref=e54]: Photos / Media
+          - text: — used only when you choose to attach an existing image to a project
+        - listitem [ref=e55]:
+          - text: ▸
+          - strong [ref=e56]: Storage Access Framework
+          - text: — used for the optional import and export features. This does not require a broad storage permission; Android manages file access through the system file picker and share sheet
+      - paragraph [ref=e57]: Artisan does not request access to your contacts, location, microphone, or any other sensitive system resource.
+      - heading "Data Storage & Security" [level=2] [ref=e58]
+      - paragraph [ref=e59]: All app data is stored in a private application folder that belongs to Artisan and is not accessible to other apps. This data is removed when you uninstall Artisan. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours.
+      - heading "Data Sharing" [level=2] [ref=e60]
+      - paragraph [ref=e61]: Artisan does not share any data with third parties. There are no analytics SDKs, crash reporting services, advertising networks, or external APIs integrated into the app.
+      - heading "Deleting Your Data" [level=2] [ref=e62]
+      - paragraph [ref=e63]: You can delete all data stored by Artisan at any time by clearing the app's data in your Android settings (Settings → Apps → Artisan → Storage → Clear Data), or by uninstalling the app.
+      - heading "Children's Privacy" [level=2] [ref=e64]
+      - paragraph [ref=e65]: Artisan does not knowingly collect any information from children. The app collects no personal information from any user, regardless of age.
+      - heading "Changes to This Policy" [level=2] [ref=e66]
+      - paragraph [ref=e67]: If this privacy policy changes, the updated version will be published at this URL with a revised effective date. Continued use of Artisan after any changes constitutes acceptance of the updated policy.
+      - heading "Contact" [level=2] [ref=e68]
+      - paragraph [ref=e69]:
+        - text: "If you have questions about this privacy policy, you can reach us at:"
+        - link "github.com/EnigmaMachineDev" [ref=e70] [cursor=pointer]:
+          - /url: https://github.com/EnigmaMachineDev
+  - contentinfo [ref=e71]:
+    - paragraph [ref=e73]:
+      - text: © 2026 EnigmaMachineDev ·
+      - link "Back to Artisan" [ref=e74] [cursor=pointer]:
+        - /url: /artisan/

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abundance — EnigmaMachineDev</title>
-  <meta name="description" content="Abundance is an Android gratitude journal for logging daily gratefuls and reflections to build a record of what's good in your life.">
+  <title>StreamDial — EnigmaMachineDev</title>
+  <meta name="description" content="StreamDial is a free browser-based tool for curating, previewing, and randomizing livestream channels from YouTube and Twitch.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,60 +64,52 @@
 
     <section class="hero">
       <div class="container">
-        <div class="app-icon"><img src="/images/abundance-icon.png" alt="Abundance icon"></div>
-        <span class="hero-eyebrow">Android · Gratitude Journal</span>
-        <h1>Abundance</h1>
-        <p class="hero-tagline">Notice what's good. A quiet daily journal for logging what you're grateful for and reflecting on your day — building a record of the things that matter.</p>
+        <div class="app-icon">📻</div>
+        <span class="hero-eyebrow">Web App · Deployed on Netlify</span>
+        <h1>StreamDial</h1>
+        <p class="hero-tagline">Your livestream command center. Curate lists of YouTube and Twitch channels, preview what's live without leaving the page, and hit Randomize to jump into something new. Runs entirely in your browser — no account, no server, no API key.</p>
         <div class="btn-row">
-          <span class="btn btn-primary disabled">Coming to Google Play</span>
-          <a href="/abundance/privacy.html" class="btn btn-secondary">Privacy Policy</a>
+          <a href="https://streamdial.net" class="btn btn-primary" target="_blank" rel="noopener">Open StreamDial</a>
         </div>
+        <a href="https://streamdial.net" class="live-badge" target="_blank" rel="noopener">Live at streamdial.net</a>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <span class="section-label">Features</span>
-        <h2>What Abundance does</h2>
+        <h2>What StreamDial does</h2>
         <div class="feature-grid">
           <div class="feature-card">
-            <span class="feature-icon">🌱</span>
-            <h3>Daily Gratefuls</h3>
-            <p>Log a few things you're grateful for each day. A simple, low-friction prompt that takes thirty seconds — and compounds over time into something meaningful.</p>
+            <span class="feature-icon">📋</span>
+            <h3>Channel Lists</h3>
+            <p>Organize channels into named lists. One channel can appear in multiple lists. Manage, reorder, and switch between lists instantly.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">✍️</span>
-            <h3>Daily Reflection</h3>
-            <p>Add a short reflection alongside your gratefuls. Write as little or as much as you want — a single sentence or a full recap of the day.</p>
+            <span class="feature-icon">▶️</span>
+            <h3>Live Preview</h3>
+            <p>Preview a stream right on the page without leaving. One preview active at a time — click another to swap, or close to go back to thumbnails.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📅</span>
-            <h3>Journal View</h3>
-            <p>Browse your full history of entries in a clean chronological log. Read back through your days and notice how your perspective has shifted.</p>
+            <span class="feature-icon">🎲</span>
+            <h3>Randomize</h3>
+            <p>Hit Randomize to open a random channel from the current list in a new tab. Optionally avoid picking the same channel twice in a row.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📈</span>
-            <h3>Insights &amp; Analysis</h3>
-            <p>See your streaks and the words and themes that recur across your entries — a quiet reflection on what you keep coming back to.</p>
+            <span class="feature-icon">🔗</span>
+            <h3>Paste &amp; Go</h3>
+            <p>Paste a YouTube or Twitch URL and the channel is parsed locally in your browser. No API key, no server round-trip.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🔔</span>
-            <h3>Gentle Reminders</h3>
-            <p>Set one or more daily notification times to prompt your entry. Snooze or silence reminders on days you don't need them — no guilt, no streaks pressure.</p>
+            <span class="feature-icon">💾</span>
+            <h3>Import &amp; Export</h3>
+            <p>Back up your lists as JSON. Move them between browsers or devices. Merge imported data with your existing lists or replace everything.</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <span class="section-label">Screenshots</span>
-        <h2>App preview</h2>
-        <div class="screenshot-gallery">
-          <div class="screenshot-placeholder">Screenshots coming soon</div>
-          <div class="screenshot-placeholder">Screenshots coming soon</div>
-          <div class="screenshot-placeholder">Screenshots coming soon</div>
-          <div class="screenshot-placeholder">Screenshots coming soon</div>
+          <div class="feature-card">
+            <span class="feature-icon">🔒</span>
+            <h3>Yours &amp; Private</h3>
+            <p>Everything lives in localStorage. No account, no cloud sync, no tracking. Clear your browser data and it's gone — keep a backup on the Data screen.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -125,10 +117,10 @@
     <section class="section">
       <div class="container">
         <span class="section-label">Patch Notes</span>
-        <h2>Release history</h2>
+        <h2>Update history</h2>
         <div class="patch-empty">
-          Patch notes will appear here once Abundance is publicly available.<br>
-          Check back after the Google Play launch.
+          Update notes for StreamDial will be posted here once this site is deployed.<br>
+          Visit the <a href="https://streamdial.net" target="_blank" rel="noopener">live app</a> to see the current version now.
         </div>
       </div>
     </section>
@@ -137,7 +129,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="/abundance/privacy.html">Privacy Policy</a></p>
+      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="https://streamdial.net" target="_blank" rel="noopener">StreamDial</a></p>
     </div>
   </footer>
 

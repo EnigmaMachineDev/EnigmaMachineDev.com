@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nourish — EnigmaMachineDev</title>
-  <meta name="description" content="Nourish is an offline Android first-foods introduction log. Track which foods your baby has tried, when they were introduced, and how they reacted — all on your device, no medical advice.">
+  <title>Auspex — EnigmaMachineDev</title>
+  <meta name="description" content="Auspex is an Android build-your-own randomizer. Build a randomizer as an infinitely-nestable tree of options; rolling cascades down through every layer, with weights, draw counts, breadcrumb results, history, and an animated decision-tree graph.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -32,6 +32,7 @@
             <li><a href="/nourish/">Nourish</a></li>
             <li><a href="/tidings/">Tidings</a></li>
             <li><a href="/provision/">Provision</a></li>
+            <li><a href="/auspex/">Auspex</a></li>
             <li><a href="/randomizer-hub/">RandomizerTools</a></li>
             <li><a href="/soulframe-tools/">SoulframeTools</a></li>
             <li><a href="/streamdial/">StreamDial</a></li>
@@ -56,6 +57,7 @@
       <a href="/nourish/">Nourish</a>
       <a href="/tidings/">Tidings</a>
       <a href="/provision/">Provision</a>
+      <a href="/auspex/">Auspex</a>
       <a href="/randomizer-hub/">RandomizerTools</a>
       <a href="/soulframe-tools/">SoulframeTools</a>
       <a href="/streamdial/">StreamDial</a>
@@ -66,13 +68,13 @@
 
     <section class="hero">
       <div class="container">
-        <div class="app-icon"><img src="/images/nourish-icon.png" alt="Nourish icon"></div>
-        <span class="hero-eyebrow">Android · First Foods Log</span>
-        <h1>Nourish</h1>
-        <p class="hero-tagline">A simple log for your baby's first foods. Track which foods have been introduced, when, and how your little one reacted. Nourish is purely a logging tool — it ships with zero food knowledge, makes no medical claims, and never enforces a schedule. Your pediatrician decides; you record.</p>
+        <div class="app-icon"><img src="/images/auspex-icon.png" alt="Auspex icon"></div>
+        <span class="hero-eyebrow">Android · Randomizer</span>
+        <h1>Auspex</h1>
+        <p class="hero-tagline">Build your own randomizer as a tree of options. Roll one and the pick cascades down — if the option you land on has its own nested options, Auspex keeps rolling, layer after layer, until it reaches an outcome. You control the whole tree and how deep it goes.</p>
         <div class="btn-row">
           <span class="btn btn-primary disabled">Coming to Google Play</span>
-          <a href="/nourish/privacy.html" class="btn btn-secondary">Privacy Policy</a>
+          <a href="/auspex/privacy.html" class="btn btn-secondary">Privacy Policy</a>
         </div>
       </div>
     </section>
@@ -80,37 +82,37 @@
     <section class="section">
       <div class="container">
         <span class="section-label">Features</span>
-        <h2>What Nourish does</h2>
+        <h2>What Auspex does</h2>
         <div class="feature-grid">
           <div class="feature-card">
-            <span class="feature-icon">📋</span>
-            <h3>Food Journal</h3>
-            <p>Add foods, mark them as planned, introduced, or shelved. Record the date of each introduction and attach observations with your own tags.</p>
+            <span class="feature-icon">🌳</span>
+            <h3>Infinitely Nestable</h3>
+            <p>Every option can hold its own list of options. Rolling automatically cascades from the top level all the way down to a final outcome — as many layers deep as you build.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">⏳</span>
-            <h3>Wait Window</h3>
-            <p>Set a configurable wait period between introductions. Nourish counts down and notifies you when the window ends — but never blocks or warns.</p>
+            <span class="feature-icon">⚖️</span>
+            <h3>Optional Weights</h3>
+            <p>Give any option a heavier or lighter chance relative to its siblings. Leave weights alone and every option is equally likely — they stay out of your way until you need them.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🏷️</span>
-            <h3>Custom Tags</h3>
-            <p>Create your own food categories and observation labels. Nourish ships empty — every tag is yours, nothing is built in.</p>
+            <span class="feature-icon">🎯</span>
+            <h3>Draw Several at Once</h3>
+            <p>Each list can draw more than one option per roll, at any level. Choose per roll whether repeats are allowed — draw with or without replacement.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📅</span>
-            <h3>History</h3>
-            <p>Browse introductions on a calendar or scroll a timeline. See what was introduced when, and review observations at a glance.</p>
+            <span class="feature-icon">🧭</span>
+            <h3>Breadcrumb Results</h3>
+            <p>Every result reads as its full path, like Dinner → Italian → Carbonara, so you always see exactly how the roll got there. Multi-draws show one path per outcome.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📊</span>
-            <h3>Stats</h3>
-            <p>Purely descriptive numbers: how many foods introduced, your pace, configured-wait-vs-actual gaps, and tag breakdowns.</p>
+            <span class="feature-icon">🕸️</span>
+            <h3>Animated Decision Tree</h3>
+            <p>See any randomizer as a graph you can pan and zoom. Roll it and watch the winning path trace down the tree — and replay any past roll the same way.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🔒</span>
             <h3>Yours &amp; Private</h3>
-            <p>Everything stays on your device. Export a full JSON backup or a CSV of foods and observations whenever you like — no cloud, no tracking.</p>
+            <p>Everything stays on your device — no account, no network, no tracking. Export any randomizer to a JSON file to back it up or share it, and import it anywhere.</p>
           </div>
         </div>
       </div>
@@ -134,7 +136,7 @@
         <span class="section-label">Patch Notes</span>
         <h2>Release history</h2>
         <div class="patch-empty">
-          Patch notes will appear here once Nourish is publicly available.<br>
+          Patch notes will appear here once Auspex is publicly available.<br>
           Check back after the Google Play launch.
         </div>
       </div>
@@ -144,7 +146,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="/nourish/privacy.html">Privacy Policy</a></p>
+      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="/auspex/privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
 

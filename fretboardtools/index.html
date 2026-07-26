@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SoulframeTools — EnigmaMachineDev</title>
-  <meta name="description" content="SoulframeTools is a companion web app for Soulframe players — weapon and armour references, a build planner, a weapon comparison tool, a loadout randomizer, and a progress checklist.">
+  <title>FretboardTools — EnigmaMachineDev</title>
+  <meta name="description" content="FretboardTools is a browser-based bass fretboard voicing engine. Set a tuning, fret window, and the scale degrees you want, and it enumerates every fingering that fits, rates each for playability, and groups the results. No account, no backend.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -76,51 +76,50 @@
 
     <section class="hero">
       <div class="container">
-        <div class="app-icon">⚔️</div>
-        <span class="hero-eyebrow">Web App · Deployed on Netlify</span>
-        <h1>SoulframeTools</h1>
-        <p class="hero-tagline">Your Soulframe companion. Browse weapons, armour, and equipment — track your progress, plan your build, and calculate stats without leaving the browser.</p>
+        <div class="app-icon"><img src="/images/fretboardtools-icon.png" alt="FretboardTools icon"></div>
+        <span class="hero-eyebrow">Web App · Coming Soon</span>
+        <h1>FretboardTools</h1>
+        <p class="hero-tagline">A bass fretboard voicing engine in your browser. Give it a tuning, how many strings the chord uses, a fret window, and the scale degrees you want — it enumerates every fingering that fits, rates each one for playability with a real finger-assignment solver, and groups them so the comfortable voicings rise to the top. No account, no backend, no API keys.</p>
         <div class="btn-row">
-          <a href="https://soulframetools.com" class="btn btn-primary" target="_blank" rel="noopener">Open SoulframeTools</a>
+          <span class="btn btn-primary disabled">Coming Soon</span>
         </div>
-        <a href="https://soulframetools.com" class="live-badge" target="_blank" rel="noopener">Live at soulframetools.com</a>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <span class="section-label">Features</span>
-        <h2>What SoulframeTools does</h2>
+        <h2>What FretboardTools does</h2>
         <div class="feature-grid">
           <div class="feature-card">
-            <span class="feature-icon">⚔️</span>
-            <h3>Weapons Database</h3>
-            <p>Browse every weapon with stats, scaling, and details. Filter and compare to find the right fit for your build.</p>
+            <span class="feature-icon">🎸</span>
+            <h3>Every Voicing, Enumerated</h3>
+            <p>Set the parameters — tuning, string count, fret window, whether string skips are allowed, which degrees you want — and every fingering that satisfies them comes back. Not a lookup table of the usual shapes.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🛡️</span>
-            <h3>Armour &amp; Equipment</h3>
-            <p>Full armour set listings with defensive values and set bonuses. Plan your loadout before you grind for it.</p>
+            <span class="feature-icon">🖐️</span>
+            <h3>Rated for Real Hands</h3>
+            <p>A genuine finger-assignment solver, not a rule of thumb. It enforces finger order and barre legality to tell you what's comfortable, what's a stretch, and what's simply impossible — and you choose how much difficulty to see.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">⚖️</span>
-            <h3>Weapon Compare</h3>
-            <p>Put weapons side by side and read the differences straight off the table, instead of holding two stat blocks in your head.</p>
+            <span class="feature-icon">↔️</span>
+            <h3>Shapes, Not Positions</h3>
+            <p>Results are fingerings, normalized so they're slidable anywhere on the neck. Learn a shape once and it works at every root — names, degrees, and pitches are worked out from wherever you put it.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🎲</span>
-            <h3>Loadout Randomizer</h3>
-            <p>Generate a random loadout when you want the game to surprise you. Narrow it to the gear you actually own before you roll.</p>
+            <span class="feature-icon">🔗</span>
+            <h3>Every Search Is a Link</h3>
+            <p>Your query lives in the URL, so any set of results is a shareable, bookmarkable link. Send someone the exact voicings you're looking at — no account, no saved-state handoff.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">✅</span>
-            <h3>Progress Tracker</h3>
-            <p>Check off items as you acquire them. Track completion across weapons, armour, talismans, and totems in one place.</p>
+            <span class="feature-icon">🔍</span>
+            <h3>Identify &amp; Scales</h3>
+            <p>Click notes onto a fretboard and get the chord read back as ranked interpretations, ambiguity included. Or browse scale box coverings to see where a degree set sits on the neck.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📐</span>
-            <h3>Build Planner</h3>
-            <p>Allocate virtues and see the numbers move — attack, armour, stability, total life — with tempers, joineries, and pact art bonuses folded in. Import a build or reset to defaults as you experiment.</p>
+            <span class="feature-icon">🔒</span>
+            <h3>Yours &amp; Private</h3>
+            <p>Runs entirely in your browser — it makes no network requests at all. Your tunings, chord definitions, and favorites stay in local storage and export to a single file that the Ambitus Android app reads too.</p>
           </div>
         </div>
       </div>
@@ -131,8 +130,7 @@
         <span class="section-label">Patch Notes</span>
         <h2>Update history</h2>
         <div class="patch-empty">
-          Update notes for SoulframeTools will be posted here once this site is deployed.<br>
-          Visit the <a href="https://soulframetools.com" target="_blank" rel="noopener">live app</a> to see the current version now.
+          Update notes for FretboardTools will be posted here once the site is live.
         </div>
       </div>
     </section>
@@ -141,7 +139,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="https://soulframetools.com" target="_blank" rel="noopener">SoulframeTools</a></p>
+      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a></p>
     </div>
   </footer>
 

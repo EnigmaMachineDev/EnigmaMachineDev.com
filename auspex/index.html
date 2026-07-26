@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auspex — EnigmaMachineDev</title>
-  <meta name="description" content="Auspex is an Android build-your-own randomizer. Build a randomizer as an infinitely-nestable tree of options; rolling cascades down through every layer, with weights, draw counts, breadcrumb results, history, and an animated decision-tree graph.">
+  <meta name="description" content="Auspex is an offline Android build-your-own randomizer. Wire options, number ranges, dice, and card decks into a graph where each outcome triggers the next roll, then watch the result cascade across an animated decision graph.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -35,9 +35,11 @@
             <li><a href="/auspex/">Auspex</a></li>
             <li><a href="/manifest/">Manifest</a></li>
             <li><a href="/wright/">Wright</a></li>
+            <li><a href="/ambitus/">Ambitus</a></li>
             <li><a href="/randomizer-hub/">RandomizerTools</a></li>
             <li><a href="/soulframe-tools/">SoulframeTools</a></li>
             <li><a href="/streamdial/">StreamDial</a></li>
+            <li><a href="/fretboardtools/">FretboardTools</a></li>
           </ul>
         </li>
       </ul>
@@ -62,9 +64,11 @@
       <a href="/auspex/">Auspex</a>
       <a href="/manifest/">Manifest</a>
       <a href="/wright/">Wright</a>
+      <a href="/ambitus/">Ambitus</a>
       <a href="/randomizer-hub/">RandomizerTools</a>
       <a href="/soulframe-tools/">SoulframeTools</a>
       <a href="/streamdial/">StreamDial</a>
+      <a href="/fretboardtools/">FretboardTools</a>
     </nav>
   </header>
 
@@ -75,7 +79,7 @@
         <div class="app-icon"><img src="/images/auspex-icon.png" alt="Auspex icon"></div>
         <span class="hero-eyebrow">Android · Randomizer</span>
         <h1>Auspex</h1>
-        <p class="hero-tagline">Build your own randomizer as a tree of options. Roll one and the pick cascades down — if the option you land on has its own nested options, Auspex keeps rolling, layer after layer, until it reaches an outcome. You control the whole tree and how deep it goes.</p>
+        <p class="hero-tagline">Build your own randomizer as a graph of connected pieces. Option lists, number ranges, dice, and card decks are tiles you wire together — and you wire them by outcome, so landing on one result fires the next roll while a different result goes somewhere else entirely. One tap cascades through the whole chain until every branch runs out.</p>
         <div class="btn-row">
           <span class="btn btn-primary disabled">Coming to Google Play</span>
           <a href="/auspex/privacy.html" class="btn btn-secondary">Privacy Policy</a>
@@ -89,34 +93,34 @@
         <h2>What Auspex does</h2>
         <div class="feature-grid">
           <div class="feature-card">
-            <span class="feature-icon">🌳</span>
-            <h3>Infinitely Nestable</h3>
-            <p>Every option can hold its own list of options. Rolling automatically cascades from the top level all the way down to a final outcome — as many layers deep as you build.</p>
+            <span class="feature-icon">🧩</span>
+            <h3>Five Kinds of Tile</h3>
+            <p>Weighted option lists, number ranges, dice, card decks that draw without replacement, and fixed constants. Mix them freely — a single randomizer can roll a d20, pick from a list, and deal a card.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">⚖️</span>
-            <h3>Optional Weights</h3>
-            <p>Give any option a heavier or lighter chance relative to its siblings. Leave weights alone and every option is equally likely — they stay out of your way until you need them.</p>
+            <span class="feature-icon">🔀</span>
+            <h3>Wired by Outcome</h3>
+            <p>Connections hang off specific results, not whole tiles. Landing on "Italian" can fire the pasta list while "Thai" goes somewhere else, and a number lands in a range that routes it — so the roll takes a different route every time.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🎯</span>
-            <h3>Draw Several at Once</h3>
-            <p>Each list can draw more than one option per roll, at any level. Choose per roll whether repeats are allowed — draw with or without replacement.</p>
-          </div>
-          <div class="feature-card">
-            <span class="feature-icon">🧭</span>
-            <h3>Breadcrumb Results</h3>
-            <p>Every result reads as its full path, like Dinner → Italian → Carbonara, so you always see exactly how the roll got there. Multi-draws show one path per outcome.</p>
+            <span class="feature-icon">♻️</span>
+            <h3>Reuse Anything</h3>
+            <p>One tile can be wired in from as many places as you like — build a difficulty roll once and point everything at it. Loops are allowed too, and Auspex handles them without spinning out.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🕸️</span>
-            <h3>Animated Decision Tree</h3>
-            <p>See any randomizer as a graph you can pan and zoom. Roll it and watch the winning path trace down the tree — and replay any past roll the same way.</p>
+            <h3>Animated Decision Graph</h3>
+            <p>See the whole randomizer as a graph — one box per tile, scaled to fit your screen on open, with pinch-zoom, pan, and a side-on or top-down toggle. Roll it and the path lights up a layer at a time, each tile showing what it picked.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">📜</span>
+            <h3>Full Roll History</h3>
+            <p>Every roll is recorded as the complete tree of what fired what, not just a final answer. Open any past roll and replay it across the graph to see exactly how it got there.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🔒</span>
             <h3>Yours &amp; Private</h3>
-            <p>Everything stays on your device — no account, no network, no tracking. Export any randomizer to a JSON file to back it up or share it, and import it anywhere.</p>
+            <p>Everything stays on your device — no account, no network, no tracking. Share a single randomizer as one file (it imports as an independent copy, so re-importing never overwrites yours), or back up everything at once.</p>
           </div>
         </div>
       </div>

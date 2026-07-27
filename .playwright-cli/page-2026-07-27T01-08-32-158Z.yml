@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "EnigmaMachineDev" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "About" [ref=e7] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e8]:
+          - button "Apps ▾" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: Lectio
+      - heading "Privacy Policy" [level=1] [ref=e14]
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - strong [ref=e17]: "Effective date:"
+          - text: July 26, 2026
+        - generic [ref=e18]:
+          - strong [ref=e19]: "App:"
+          - text: Lectio (Android)
+        - generic [ref=e20]:
+          - strong [ref=e21]: "Developer:"
+          - text: EnigmaMachineDev
+      - heading "Overview" [level=2] [ref=e22]
+      - paragraph [ref=e23]: Lectio is an offline-first Android application. It makes no network requests of any kind — there is no account, no sync, no online metadata lookup, and no cover fetching. It does not collect personal information and does not transmit any data to external servers or third parties. Everything you create in Lectio stays on your device.
+      - heading "Information We Collect" [level=2] [ref=e24]
+      - paragraph [ref=e25]: "Lectio does not collect any personal information. The app stores the following data locally on your device, in a private application folder:"
+      - list [ref=e26]:
+        - listitem [ref=e27]: ▸ Your books and series (titles, authors, editions, ISBNs, genres, tags, shelf locations, and any notes you write)
+        - listitem [ref=e28]: ▸ Your reading records — each pass through a book, with its dates, rating, and review — and the individual readings you log against them
+        - listitem [ref=e29]: "▸ Marginalia: passages you copy out and your thoughts about them"
+        - listitem [ref=e30]: ▸ Loans you record, including the name you type for the other party and any contact note you add yourself
+        - listitem [ref=e31]: ▸ Yearly targets you set, and cover images you choose from your own photo library
+        - listitem [ref=e32]: ▸ App settings and preferences, including your randomizer defaults
+      - paragraph [ref=e33]: None of this data is linked to your identity, uploaded anywhere, or shared with any third party.
+      - heading "How We Use Your Data" [level=2] [ref=e34]
+      - paragraph [ref=e35]: "Data stored by Lectio is used solely to operate the app's features on your device:"
+      - list [ref=e36]:
+        - listitem [ref=e37]: ▸ Showing the collection, the wishlist, and the to-read queue as views over your books
+        - listitem [ref=e38]: ▸ Tracking progress through a book and rolling it up into yearly statistics
+        - listitem [ref=e39]: ▸ Drawing a book at random from the ones you could actually read now
+        - listitem [ref=e40]: ▸ Reminding you which books are lent out and which are overdue
+        - listitem [ref=e41]: ▸ Restoring app state between sessions
+      - heading "Names Of Other People" [level=2] [ref=e42]
+      - paragraph [ref=e43]: When you record a loan, you type the other party's name and, optionally, a way to reach them. Lectio has no access to your contacts and never reads them — this is free text you enter yourself. It is stored on your device exactly like the rest of your data, and is never transmitted anywhere.
+      - heading "Export & Import" [level=2] [ref=e44]
+      - paragraph [ref=e45]: Lectio includes optional backup and import features. You can export your collection (including cover images) as a single JSON file, your notes and reviews as Markdown, or a flat CSV, through Android's standard share sheet. You can import a Lectio backup, a pasted list of titles, or a CSV exported from another reading service through Android's system file picker. Neither process routes data through any server — all file operations are local and on-device, and any file you import is one you supply yourself. You choose what you do with exported files.
+      - heading "Permissions Required" [level=2] [ref=e46]
+      - paragraph [ref=e47]: "Lectio requests only what the operating system needs for optional features you choose to use:"
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - text: ▸
+          - strong [ref=e50]: Photos / media
+          - text: — only when you choose to attach a cover image from your own library. Lectio never downloads cover art.
+        - listitem [ref=e51]:
+          - text: ▸
+          - strong [ref=e52]: Storage Access Framework
+          - text: — used for the optional import and export features through the system file picker and share sheet
+      - paragraph [ref=e53]: Cover images you attach are copied into Lectio's private application folder and are not shared with any third party. Lectio does not request the camera, your contacts, your location, or the microphone, and it holds no internet permission.
+      - heading "Data Storage & Security" [level=2] [ref=e54]
+      - paragraph [ref=e55]: All app data, including cover images, is stored in a private application folder that belongs to Lectio and is not accessible to other apps. This data is removed when you uninstall Lectio. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours.
+      - heading "Data Sharing" [level=2] [ref=e56]
+      - paragraph [ref=e57]: Lectio does not share any data with third parties. There are no analytics SDKs, crash reporting services, advertising networks, or external APIs integrated into the app. This is checked mechanically as part of the build.
+      - heading "Deleting Your Data" [level=2] [ref=e58]
+      - paragraph [ref=e59]: You can delete all data stored by Lectio at any time from within the app (Settings → Erase everything), by clearing the app's data in your Android settings (Settings → Apps → Lectio → Storage → Clear Data), or by uninstalling the app.
+      - heading "Children's Privacy" [level=2] [ref=e60]
+      - paragraph [ref=e61]: Lectio does not knowingly collect any information from children. The app collects no personal information from any user, regardless of age.
+      - heading "Changes to This Policy" [level=2] [ref=e62]
+      - paragraph [ref=e63]: If this privacy policy changes, the updated version will be published at this URL with a revised effective date. Continued use of Lectio after any changes constitutes acceptance of the updated policy.
+      - heading "Contact" [level=2] [ref=e64]
+      - paragraph [ref=e65]:
+        - text: "If you have questions about this privacy policy, you can reach us at:"
+        - link "github.com/EnigmaMachineDev" [ref=e66] [cursor=pointer]:
+          - /url: https://github.com/EnigmaMachineDev
+  - contentinfo [ref=e67]:
+    - paragraph [ref=e69]:
+      - text: © 2026 EnigmaMachineDev ·
+      - link "Back to Lectio" [ref=e70] [cursor=pointer]:
+        - /url: /lectio/

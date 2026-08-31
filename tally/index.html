@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prudence — EnigmaMachineDev</title>
-  <meta name="description" content="Prudence is an Android personal finance tracker. Budgets as envelopes, a ledger you can fill in about five seconds, recurring expenses, income allocation, and planning calculators. Slide the date forward to see what your money looks like later. Fully offline.">
+  <title>Tally — EnigmaMachineDev</title>
+  <meta name="description" content="Tally is an Android calorie and macronutrient tracker. Build your own food library, log against a limit you set, and let the recipe engine divide a cooked dish by its measured weight. Fully offline — no account, no network, no food database.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -82,13 +82,15 @@
 
     <section class="hero">
       <div class="container">
-        <div class="app-icon"><img src="/images/prudence-icon.png" alt="Prudence icon"></div>
-        <span class="hero-eyebrow">Android · Personal Finance</span>
-        <h1>Prudence</h1>
-        <p class="hero-tagline">Four questions, answered on your own device: can I spend this, what will this look like later, where is my money actually going, and what's left over? Budgets behave like envelopes, logging an expense takes about five seconds, and the whole dashboard can be slid forward in time to show you the month you haven't had yet.</p>
+        <!-- TODO: add /images/tally-icon.png here once a Tally mark exists.
+             The empty .app-icon renders as the plain rounded tile by design. -->
+        <div class="app-icon"></div>
+        <span class="hero-eyebrow">Android · Health &amp; Fitness</span>
+        <h1>Tally</h1>
+        <p class="hero-tagline">A calorie and macronutrient counter that keeps its opinions to itself. You build your own food library, you set your own limit, and Tally does the arithmetic — including the part everyone gets wrong, which is what a pot of stew is worth per serving after it has cooked down. Nothing leaves your device.</p>
         <div class="btn-row">
           <span class="btn btn-primary disabled">Coming to Google Play</span>
-          <a href="/prudence/privacy.html" class="btn btn-secondary">Privacy Policy</a>
+          <a href="/tally/privacy.html" class="btn btn-secondary">Privacy Policy</a>
         </div>
       </div>
     </section>
@@ -96,37 +98,37 @@
     <section class="section">
       <div class="container">
         <span class="section-label">Features</span>
-        <h2>What Prudence does</h2>
+        <h2>What Tally does</h2>
         <div class="feature-grid">
           <div class="feature-card">
-            <span class="feature-icon">✉️</span>
-            <h3>Budgets As Envelopes</h3>
-            <p>A name, an amount, and a refill cadence — daily through yearly, with "twice a month" and "every two months" kept as the distinct things they are. Set an amount as a flat figure or as a percentage of your income; the resolved dollar figure always sits beside it.</p>
+            <span class="feature-icon">⚖️</span>
+            <h3>Any Unit, Exactly</h3>
+            <p>A food records its nutrition against whatever amount is printed on the packet — per 100 g, per ounce, per package, per egg. Everything else is worked out from that, so the same food logs correctly in grams, ounces or pounds and the figures stay exactly proportional.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">⚡</span>
-            <h3>Five Seconds To Log</h3>
-            <p>The keypad opens focused, and amount and budget are the only things required. Recent budgets come first, payees autocomplete, dates have one-tap shortcuts, and an Undo toast catches the mistake you notice a second too late.</p>
+            <span class="feature-icon">🥄</span>
+            <h3>It Refuses To Guess</h3>
+            <p>A cup of flour and a cup of honey are not the same weight, so Tally will not convert between weight and volume using a number it made up. It asks you once for that food's density or portion, remembers it, and never asks again.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">📈</span>
-            <h3>See The Month Ahead</h3>
-            <p>Slide the "as of" date forward and every figure on the dashboard becomes what it will be then, scheduled recurring expenses included. Rollover carries unspent money forward if you want it to — and carries an overspend forward just as honestly.</p>
+            <span class="feature-icon">🍲</span>
+            <h3>Recipes That Account For Cooking</h3>
+            <p>Add your ingredients, then weigh the pot when it's done. A stew that starts as 2,400 g of ingredients and finishes at 1,850 g gets divided by 1,850 — so every serving is right, and you never do the arithmetic yourself.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🎁</span>
-            <h3>Windfalls Stay Separate</h3>
-            <p>A bonus or a gift lands in an undistributed pool and waits. Assign it across budgets over as many sittings as you like, with the remainder always in view. Money coming in never quietly contaminates a spending total.</p>
+            <span class="feature-icon">📌</span>
+            <h3>History Stays Put</h3>
+            <p>Every entry keeps the figures it was logged with. Correcting a food today leaves last month exactly as it was — and if you genuinely want the correction applied backwards, you ask for it and choose how far back it reaches.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🧮</span>
-            <h3>Planning Calculators</h3>
-            <p>An emergency fund built from the budgets <em>you</em> marked essential rather than a rule of thumb, full mortgage amortization with extra-principal and refinance break-even, and an ESPP disposition comparison. Results reach your real budgets only when you say so.</p>
+            <h3>Just The Numbers</h3>
+            <p>No streaks, no badges, no reminders, no nudges, nothing to earn. Going over your limit fills the bar and colours the figure — reported plainly and left alone. Macros are optional; set none and you will never see them.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🔒</span>
             <h3>Yours &amp; Private</h3>
-            <p>No account, no sync, no analytics, no bank connection — Prudence makes no network requests at all. Your finances sit in one JSON file you can export whenever you like, whole or one profile at a time.</p>
+            <p>No account, no sync, no analytics, and no food database to phone home to — Tally makes no network requests at all. Your library and your log sit in files on your device, exportable whole or a piece at a time as readable JSON.</p>
           </div>
         </div>
       </div>
@@ -150,7 +152,7 @@
         <span class="section-label">Patch Notes</span>
         <h2>Release history</h2>
         <div class="patch-empty">
-          Patch notes will appear here once Prudence is publicly available.<br>
+          Patch notes will appear here once Tally is publicly available.<br>
           Check back after the Google Play launch.
         </div>
       </div>
@@ -160,7 +162,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="/prudence/privacy.html">Privacy Policy</a></p>
+      <p>© 2026 EnigmaMachineDev · <a href="https://github.com/EnigmaMachineDev">GitHub</a> · <a href="/tally/privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
 

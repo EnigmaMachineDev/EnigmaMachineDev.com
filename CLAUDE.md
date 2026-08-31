@@ -24,7 +24,7 @@ python3 -m http.server 8000    # then visit http://localhost:8000
 index.html          # Home: "Android Applications" + "Web Tools" sections
 style.css           # All styling for every page
 nav.js              # Shared nav behavior (desktop dropdown + mobile hamburger)
-images/             # Per-project icons, <slug>-icon.png (20 files)
+images/             # Per-project icons, <slug>-icon.png (20 files; `tally` has none yet)
 _headers            # Netlify security headers
 <slug>/
 ├── index.html      # That project's landing page
@@ -35,9 +35,9 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 
 ## Project pages
 
-22 slugs, matching the workspace projects:
+23 slugs, matching the workspace projects:
 
-**Android apps (18)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `manifest`, `nourish`, `provision`, `prudence`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
+**Android apps (19)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `manifest`, `nourish`, `provision`, `prudence`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
 
 **Web tools (4)** — `fretboardtools`, `randomizer-hub`, `soulframe-tools`, `streamdial`
 
@@ -55,7 +55,7 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 ## Adding a project
 
 1. `mkdir <slug>/` with an `index.html` copied from the closest existing page.
-2. Add `images/<slug>-icon.png`.
+2. Add `images/<slug>-icon.png`. If there is no mark yet, leave the `.app-icon` / `.app-card-icon` div **empty** — it renders as the plain rounded tile — and leave a `TODO` comment beside it. `tally` is currently in that state.
 3. Add a card to the correct section of the root `index.html`.
 4. Add the entry to the nav in **every** page (there is no shared include).
 5. For an Android app, add `privacy.html`.

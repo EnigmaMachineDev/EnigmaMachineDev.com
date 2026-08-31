@@ -128,9 +128,9 @@
         <h2>Permissions Required</h2>
         <p>Tally requests only what the operating system needs for the optional import and export features:</p>
         <ul>
-          <li><strong>Storage Access Framework</strong> — used for import and export through the system file picker and share sheet</li>
+          <li><strong>Storage Access Framework</strong> — used for import and export through the system file picker and share sheet. On older Android versions this appears as the general storage permission; Tally uses it solely to read a file you pick and to write a file you asked to export, and never browses or reads storage on its own.</li>
         </ul>
-        <p>Tally does not request the camera, your contacts, your location, your photos, the microphone, or notifications, and it holds no internet permission. The app sends no notifications and has no reminder feature.</p>
+        <p>Tally does not request the camera, your contacts, your location, the microphone, or notifications, and <strong>it holds no internet permission at all</strong> — the released app is built without it, so it is not merely unused but absent. The app sends no notifications and has no reminder feature.</p>
 
         <h2>Data Storage &amp; Security</h2>
         <p>All app data is stored in a private application folder that belongs to Tally and is not accessible to other apps. This data is removed when you uninstall Tally. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours.</p>

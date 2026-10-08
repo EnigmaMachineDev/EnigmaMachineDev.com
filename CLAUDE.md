@@ -35,15 +35,17 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 
 ## Project pages
 
-23 slugs, matching the workspace projects:
+25 slugs, matching the workspace projects:
 
-**Android apps (19)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `manifest`, `nourish`, `provision`, `prudence`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
+**Android apps (21)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `lector`, `manifest`, `menses`, `nourish`, `provision`, `prudence`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
 
 **Web tools (4)** — `fretboardtools`, `randomizer-hub`, `soulframe-tools`, `streamdial`
 
 `randomizer-hub` is the page for the **RandomizerTools** repo (the slug kept the old name; the repo did not).
 
 **Privacy policies:** every Android app page carries a `privacy.html` **except `ambitus/`**, which has none. The four web-tool pages have none by design.
+
+**Icons:** `menses/` and `lector/` have no `images/<slug>-icon.png` yet — both apps still ship placeholder marks — so their `.app-icon` / `.app-card-icon` divs are empty with a `TODO` beside them. Roadwrench has no page yet.
 
 ## Conventions
 

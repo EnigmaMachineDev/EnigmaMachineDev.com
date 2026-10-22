@@ -23,7 +23,8 @@ python3 -m http.server 8000    # then visit http://localhost:8000
 ```
 index.html          # Home: "Android Applications" + "Web Tools" sections
 style.css           # All styling for every page
-nav.js              # Shared nav behavior (desktop dropdown + mobile hamburger)
+nav.js              # Shared nav behavior (desktop dropdown + mobile hamburger + theme toggle)
+theme.js            # Light / dark theme, loaded in every <head>
 images/             # Per-project icons, <slug>-icon.png (21 files)
 _headers            # Netlify security headers
 <slug>/
@@ -50,7 +51,8 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 ## Conventions
 
 - **Separation of concerns**, same rule as RandomizerTools: no inline `style` attributes, no `<style>` blocks, no `onclick` handlers. `nav.js` wires everything with `addEventListener` inside `DOMContentLoaded` and toggles CSS classes rather than writing `element.style.*`.
-- Dark green theme shared with the rest of the workspace (`#0a0f0a` background, `#4a8c4a` / `#c8e6c8` greens).
+- Green theme shared with the rest of the workspace, in **light and dark**. `style.css` defines the palette as variables: `:root` is light (the Roadwrench daylight green), `:root[data-theme="dark"]` the original dark green (`#0a0f0a` background, `#4a8c4a` / `#c8e6c8` greens), plus a `prefers-color-scheme` fallback for no-JS. Use the variables, never a literal color.
+- `theme.js` is loaded with a plain `<script src="/theme.js">` right after the stylesheet in **every** page's `<head>` (before first paint, so no flash). It resolves the preference (`system` default, `light`, `dark`, in `localStorage['theme']`), follows OS changes, and sets `<html data-theme>`. `nav.js` injects the `.theme-toggle` button (match system → light → dark) into `.nav-inner`, so no page's nav markup carries it.
 - Responsive via CSS `@media` queries only.
 - `_headers` sets `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`, and a `Permissions-Policy` denying camera/microphone/geolocation. Netlify and Cloudflare Pages honor it; on GitHub Pages it is inert.
 
@@ -60,4 +62,5 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 2. Add `images/<slug>-icon.png`. If there is no mark yet, leave the `.app-icon` / `.app-card-icon` div **empty** — it renders as the plain rounded tile — and leave a `TODO` comment beside it.
 3. Add a card to the correct section of the root `index.html`.
 4. Add the entry to the nav in **every** page (there is no shared include).
+   Copy the `<script src="/theme.js"></script>` line from the `<head>` too.
 5. For an Android app, add `privacy.html`.

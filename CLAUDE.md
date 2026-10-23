@@ -25,7 +25,7 @@ index.html          # Home: "Android Applications" + "Web Tools" sections
 style.css           # All styling for every page
 nav.js              # Shared nav behavior (desktop dropdown + mobile hamburger + theme toggle)
 theme.js            # Light / dark theme, loaded in every <head>
-images/             # Per-project icons, <slug>-icon.png (21 files)
+images/             # Per-project icons, <slug>-icon.png (24 files)
 _headers            # Netlify security headers
 <slug>/
 ├── index.html      # That project's landing page
@@ -36,9 +36,9 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 
 ## Project pages
 
-25 slugs, matching the workspace projects:
+26 slugs, matching the workspace projects:
 
-**Android apps (21)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `lector`, `manifest`, `menses`, `nourish`, `provision`, `prudence`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
+**Android apps (22)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `lector`, `manifest`, `menses`, `nourish`, `provision`, `prudence`, `roadwrench`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
 
 **Web tools (4)** — `fretboardtools`, `randomizer-hub`, `soulframe-tools`, `streamdial`
 
@@ -46,7 +46,7 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 
 **Privacy policies:** every Android app page carries a `privacy.html` **except `ambitus/`**, which has none. The four web-tool pages have none by design.
 
-**Icons:** `menses/` and `lector/` have no `images/<slug>-icon.png` yet — both apps still ship placeholder marks — so their `.app-icon` / `.app-card-icon` divs are empty with a `TODO` beside them. Roadwrench has no page yet.
+**Icons:** every project except `randomizer-hub` and `soulframe-tools` has an `images/<slug>-icon.png` (StreamDial's is an `.svg`). App icons are copied from `~/Mechanicum/AppLogos/<App>Logos/android/playstore-icon.png`.
 
 ## Conventions
 

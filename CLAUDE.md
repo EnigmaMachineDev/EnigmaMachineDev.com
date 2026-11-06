@@ -25,7 +25,7 @@ index.html          # Home: "Android Applications" + "Web Tools" sections
 style.css           # All styling for every page
 nav.js              # Shared nav behavior (desktop dropdown + mobile hamburger + theme toggle)
 theme.js            # Light / dark theme, loaded in every <head>
-images/             # Per-project icons, <slug>-icon.png (24 files)
+images/             # Per-project icons, <slug>-icon.png (25 files)
 _headers            # Netlify security headers
 <slug>/
 ├── index.html      # That project's landing page
@@ -36,9 +36,9 @@ Every page is hand-written and self-contained — it links `../style.css` and `.
 
 ## Project pages
 
-26 slugs, matching the workspace projects:
+27 slugs, matching the workspace projects:
 
-**Android apps (22)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `lector`, `manifest`, `menses`, `nourish`, `provision`, `prudence`, `roadwrench`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
+**Android apps (23)** — `abundance`, `ambitus`, `artisan`, `attune`, `auspex`, `brine`, `cadence`, `chronos`, `lectio`, `lector`, `manifest`, `menses`, `nourish`, `provision`, `prudence`, `regard`, `roadwrench`, `tally`, `temperance`, `tidings`, `vigil`, `wright`, `yield`
 
 **Web tools (4)** — `fretboardtools`, `randomizer-hub`, `soulframe-tools`, `streamdial`
 

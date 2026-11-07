@@ -133,11 +133,11 @@
 
         <h2>Permissions</h2>
         <p>The only permission Regula ever asks you for is <strong>Notifications</strong>, and only when you first turn on a reminder. Import and export go through Android's system file picker and share sheet, which give Regula only the file you choose. Regula never browses or reads storage on its own.</p>
-        <p>Like other apps built with Expo and React Native, the installed app also declares permissions that come with those frameworks. Some support reminders, such as restarting them after your phone reboots and vibrating when one arrives. Others, such as storage access and drawing over other apps, are declared but never requested or used.</p>
-        <p>Regula does not request your contacts, location, camera, microphone, or photo library, and <strong>it holds no internet permission</strong> — the released app is built without it, so it is not merely unused but absent.</p>
+        <p>Like other apps built with Expo and React Native, the installed app also declares a few permissions that never prompt you. Some support reminders, such as restarting them after your phone reboots and vibrating when one arrives. The rest come with those frameworks and go unused, such as reading whether the phone is connected to a network, which gives no way to use one.</p>
+        <p>Regula does not request your contacts, location, camera, microphone, or photo library. <strong>It holds no internet permission, no storage permission, and no permission to draw over other apps</strong> — the released app is built without them, so they are not merely unused but absent.</p>
 
         <h2>Data Storage &amp; Security</h2>
-        <p>All app data is stored in a private application folder that belongs to Regula and is not accessible to other apps. This data is removed when you uninstall Regula. If you have Android's built-in backup enabled, your device OS may back up app data to your Google account; this is governed by Google's privacy policy, not ours. If you would rather your data never leave the phone in any form, you can turn off Android's app backup in your device settings. Regula has no app lock, so anyone who can open your unlocked phone can open it.</p>
+        <p>All app data is stored in a private application folder that belongs to Regula and is not accessible to other apps. This data is removed when you uninstall Regula. Regula turns off Android's app backup, so its data is not copied to your Google account or moved to a new phone automatically; the export feature is the way to keep a copy. Regula has no app lock, so anyone who can open your unlocked phone can open it.</p>
 
         <h2>Data Sharing</h2>
         <p>Regula does not share any data with third parties. There are no analytics SDKs, crash reporting services, advertising networks, or external APIs integrated into the app.</p>
